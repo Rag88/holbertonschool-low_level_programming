@@ -1,5 +1,3 @@
-#include <stdlib.h>
-#include <time.h>
 #include <stdio.h>
 
 /**
@@ -13,9 +11,10 @@ int main(void)
 
 	while (alpha <= 'z')
 	{
-		putchar(alpha);
+		putchar (alpha);
 		alpha++;
 	}
+
 	putchar ('\n');
 
 	return (0);
