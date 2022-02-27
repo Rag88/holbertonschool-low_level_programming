@@ -21,9 +21,18 @@ int _isupper(int c);
 /**
  * _isdigit - checks for a digit (0 through 9)
  * @c: character to be checked
- * Return: 1 if c is a digit, otherwise return 0 
+ * Return: 1 if c is a digit, otherwise return 0
  */
 
 int _isdigit(int c);
+
+/**
+ * mul - multiplies two integers
+ * @a: one integer
+ * @b: seconde integer
+ * Return: product of a and b
+ */
+
+int mul(int a, int b);
 
 #endif /* MAIN_H */
