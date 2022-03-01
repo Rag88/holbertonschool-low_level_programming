@@ -1,4 +1,5 @@
-#define _HOLBERTON_H_
+#ifndef MAIN_H
+#define MAIN_H
 
 /**
  * _putchar - writes the character c to stdout
@@ -74,3 +75,14 @@ void jack_bauer(void);
  */
 
 void times_table(void);
+
+/**
+ * add - add two integers
+ * @a: integer
+ * @b: integer
+ * Return: sum
+ */
+
+int add(int a, int b);
+
+#endif /* MAIN_H */
