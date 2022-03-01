@@ -60,4 +60,11 @@ void more_numbers(void);
 
 void print_line(int n);
 
+/**
+ * print_diagonal - print the character "\" n times to draw a diagonal
+ * @n: number of characters to draw
+ */
+
+void print_diagonal(int n);
+
 #endif /* MAIN_H */
