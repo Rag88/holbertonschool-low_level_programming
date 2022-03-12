@@ -40,13 +40,20 @@ int _strlen_recursion(char *s);
 int factorial(int n);
 
 /**
- * _pow_recursion - find the value of x raised to the power of y
- * @x: integer
- * @y: power to whicch will be elevated the integer
- * Return:  the value of x raised to the power of y
- * If y is lower than 0, the function should return -1
+ * _pow_recursion - raise x to power y
+ * @x: number
+ * @y: power to raise to
+ * Return: power of a number, -1 if power less than 0
  */
 
 int _pow_recursion(int x, int y);
+
+/**
+ * _sqrt_recursion - find natural square root of n
+ * @n: n
+ * Return: natural square root, or -1 if not natural root
+ */
+
+int _sqrt_recursion(int n);
 
 #endif
