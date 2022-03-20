@@ -20,20 +20,20 @@ int main(void)
 			{
 				for (o = '0'; o <= '9'; o++)
 				{
-					if ((tens < t) || (tens == t && ones < o))
-					{
-						putchar(tens);
-						putchar(ones);
-						putchar(' ');
-						putchar(t);
-						putchar(o);
+				if ((tens < t) || (tens == t && ones < o))
+				{
+					putchar(tens);
+					putchar(ones);
+					putchar(' ');
+					putchar(t);
+					putchar(o);
 
-						if (!(tens == '9' && ones == '8'))
-						{
-							putchar(',');
-							putchar(' ');
-						}
+					if (!(tens == '9' && ones == '8'))
+					{
+						putchar(',');
+						putchar(' ');
 					}
+				}
 				}
 			}
 		}
