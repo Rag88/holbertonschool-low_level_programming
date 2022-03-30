@@ -2,26 +2,26 @@
 #define MAIN_H
 
 /**
- * _putchar - puts character to standard output
- * @c: character to put to standard output
- * Return: write
+ * _putchar - writes the character c to stdout
+ * @c: The character to print
+ *
+ * Return: On success 1.
+ * On error, -1 is returned, and errno is set appropriately.
  */
 
 int _putchar(char c);
 
-
 /**
- * reset_to_98 - takes a pointer to an int as parameter
- * and updates the value it points to 98
- * @n: pointer to int n
+ * reset_to_98 - function that reset the value to 98
+ * @n: the pointer to int n
  */
 
 void reset_to_98(int *n);
 
 /**
- * swap_int - swaps the values of two integers
- * @a: integer to swap
- * @b: integer to swap
+ * swap_int - fuction that swaps two integers
+ * @a: first integer to swap
+ * @b: secod integer to swap
  */
 
 void swap_int(int *a, int *b);
@@ -35,66 +35,10 @@ void swap_int(int *a, int *b);
 int _strlen(char *s);
 
 /**
- * _puts - prints a string, followed by a new line, to stdout
+ * _puts - function that prints a string
  * @str: string to print
  */
 
 void _puts(char *str);
-
-/**
- * print_rev - prints a string, in reverse, followed by a new line
- * @s: string to reverse
- */
-
-void print_rev(char *s);
-
-/**
- * rev_string - reverses a string
- * @s: string to reverse
- */
-
-void rev_string(char *s);
-
-/**
- * puts2 - prints every second character of a string, followed by a new line
- * @str: string to print
- */
-
-void puts2(char *str);
-
-/**
- * puts_half - prints half of a string, followed by a new line
- * @str: string to print
- */
-
-void puts_half(char *str);
-
-/**
- * print_array - prints n elements of an array of integers,
- * followed by a new line
- * @a: array
- * @n: number of elements
- */
-
-void print_array(int *a, int n);
-
-/**
- * _strcpy - copies the string pointed to by src,
- * including the terminating null byte (\0),
- * to the buffer pointed to by dest
- * @dest: copy source to this buffer
- * @src: this is the source to copy
- * Return: dest
- */
-
-char *_strcpy(char *dest, char *src);
-
-/**
- * _atoi - convert string to int
- * @s: string to convert
- * Return: integer
- */
-
-int _atoi(char *s);
 
 #endif
