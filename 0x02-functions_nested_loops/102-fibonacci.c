@@ -6,18 +6,25 @@
  */
 int main(void)
 {
-	int counter;
-	int countto = 50;
-	long a = 1;
-	long b = 2;
+	long i;
+	int n = 50;
+	long t1 = 1, t2 = 2;
+	long nextTerm = t1 + t2;
 
-	for (counter = 1; counter <= (countto / 2); counter++)
+	printf("%li, %li, ", t1, t2);
+
+	for (i = 3; i <= n; ++i)
 	{
-		printf("%li, %li, ", a, b);
-		a += b;
-		b += a;
+		if (i < n)
+		{
+			printf("%li, ", nextTerm);
+			t1 = t2;
+			t2 = nextTerm;
+			nextTerm = t1 + t2;
+		}
+		else
+			printf("%li", nextTerm);
 	}
 	printf("\n");
-
 	return (0);
 }
