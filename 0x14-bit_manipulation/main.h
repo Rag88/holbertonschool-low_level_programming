@@ -4,9 +4,10 @@
 #include <stdlib.h> /* NULL */
 
 /* helper function */
-int _puchar(char c);
+int _putchar(char c);
 
 /* function prototypes for all files */
 unsigned int binary_to_uint(const char *b);
+void print_binary(unsigned long int n);
 
 #endif
