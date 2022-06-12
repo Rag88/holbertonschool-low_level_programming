@@ -1,7 +1,3 @@
-/*
- * File: 4-free_listint.c
- * Auth: Lalo Rdz
- */
 #include <stdlib.h>
 #include "lists.h"
 /**
